@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <link rel="icon" type="image/x-icon" href="icono.ico">
+
+</head>
+<body>
+    <body style="background-color:rgb(150, 146, 146)"> <!--color de fondo crema-#FFFFCC-->
+        <center>
+            <h1 style="color: rgb(107, 243, 28); font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 50px;">TABLA</h1> <!--texto con color,tipo de letra,tamaño de la fuente-->
+            <hr style="border-color: rgb(107, 243, 28);"> <!--color del hr-->
+        </center>
+
+        <center> <!--text-align:center;-->
+        <h1>LISTA DE ESTUDIANTES</h1> 
+        </center>
+        <hr>
+        <br><br><br><br><br>
+        <center>
+
+        <table border="5" style="text-align: center; border-color: rgb(255, 38, 0); border-radius: 20px ;">
+
+            <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Carrera</th>
+                
+            </tr>
+        
+            <!--Primera fila-->
+            <tr>
+                <td rowspan="2">0001</td>
+                <td>Jean</td>
+                <td>Computacion</td>
+            </tr>
+        
+            <!--Segunda fila-->
+            <tr>
+                
+                <td>Angely</td>
+                <td>Administracion</td>
+                
+            <!--tercera fila-->    
+            </tr>   
+            
+                <td>0003</td>
+                <td colspan="2">Mafer (Estudiante Libre)</td>
+                
+            </tr> 
+
+            <!--cuarta fila-->
+            </tr>   
+            
+                <td>0004</td>
+                <td>Anthony</td>
+                <td>Periodismo</td>
+            </tr> 
+
+            <!--quinta fila-->
+            </tr>   
+            
+                <td>0005</td>
+                <td>Jose</td>
+                <td>Zapatero</td>
+            </tr>
+        </center> 
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
